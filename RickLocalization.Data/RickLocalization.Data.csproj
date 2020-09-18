@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200918013320_Inicial.cs" />
+    <Compile Remove="Migrations\20200918013320_Inicial.Designer.cs" />
+    <Compile Remove="Migrations\20200918013542_Inicial.cs" />
+    <Compile Remove="Migrations\20200918013542_Inicial.Designer.cs" />
+    <Compile Remove="Migrations\20200918013932_Inicial.cs" />
+    <Compile Remove="Migrations\20200918013932_Inicial.Designer.cs" />
+    <Compile Remove="Migrations\20200918014208_Inicial.cs" />
+    <Compile Remove="Migrations\20200918014208_Inicial.Designer.cs" />
+    <Compile Remove="Migrations\20200918014347_UpdateTrip.cs" />
+    <Compile Remove="Migrations\20200918014347_UpdateTrip.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

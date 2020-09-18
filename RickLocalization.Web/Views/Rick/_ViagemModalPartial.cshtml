@@ -1,0 +1,28 @@
+﻿@model RickLocalization.Web.Models.TripViewModel
+
+@using (Html.BeginForm("ProcessarDados", "Rick", FormMethod.Post))
+{
+    <div class="modal fade js-modal-cadastrar-viagem" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                @Html.HiddenFor(model => model.IdRick)
+                @Html.HiddenFor(model => model.IdDimensao)
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cadastrar Viagem</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        @Html.TextBoxFor(c => c.Descricao)
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    <button type="button" class="btn btn-secondary js-modal-cancelar" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

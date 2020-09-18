@@ -1,0 +1,49 @@
+﻿nav {
+    background: #00000000;
+}
+
+html {
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+body {
+    background: linear-gradient(45deg, #44497f, #000);
+    height: 100%;
+    width: 100%;
+}
+
+.w-75 {
+    width: 280px !important;
+    margin: 10px;
+    min-width: 280px;
+}
+
+
+.listagem-ricks {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.lista-viagens {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item-rick {
+    margin: 10px 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+}

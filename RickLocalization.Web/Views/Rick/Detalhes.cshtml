@@ -1,0 +1,25 @@
+﻿@model RickLocalization.Web.Models.RickViewModel
+
+<div class="card" style="width: 21rem;">
+    <div class="card-body">
+        <p class="card-text">Rick:@Model.Id</p>
+        <p class="card-text">Dimensão:@Model.Dimensao.Nome</p>
+    </div>
+    <div class="card-body">
+        <a href="~/Rick/Historico?IdRick=@Model.Id" class="card-link btn btn-primary">Histórico</a>
+        <a href="#" class="card-link js-modal-viagem btn btn-primary">Adicionar Viagem</a>
+    </div>
+</div>
+<div class="card-body">
+    <a href="~/Rick/Index" class="card-link btn btn-secondary">Voltar</a>
+</div>
+
+@Html.Partial("_ViagemModalPartial", new TripViewModel()
+{
+    IdRick = Model.Id,
+    IdDimensao = Model.IdDimensao
+})
+
+@section scripts{
+    <script src="~/js/adicionarViagem.js"></script>
+}

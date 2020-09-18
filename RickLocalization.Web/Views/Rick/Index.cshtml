@@ -1,0 +1,14 @@
+﻿@model IEnumerable<RickLocalization.Web.Models.RickViewModel>
+    <div class="listagem-ricks">
+        @foreach (var item in Model)
+        {
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/images/rickMorty.png" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Rick: @item.Id</h5>
+                    <h5 class="card-title">Morty: @item.Morty.Nome</h5>
+                    <a href="~/Rick/Detalhes?Id=@item.Id" class="btn btn-primary">Detalhes</a>
+                </div>
+            </div>
+        }
+    </div>

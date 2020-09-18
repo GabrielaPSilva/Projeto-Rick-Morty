@@ -1,0 +1,12 @@
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\bin\Debug\netcoreapp3.1\RickLocalization.Data.deps.json
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\bin\Debug\netcoreapp3.1\RickLocalization.Data.dll
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\obj\Debug\netcoreapp3.1\RickLocalization.Data.AssemblyInfoInputs.cache
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\obj\Debug\netcoreapp3.1\RickLocalization.Data.AssemblyInfo.cs
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\obj\Debug\netcoreapp3.1\RickLocalization.Data.csprojAssemblyReference.cache
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\bin\Debug\netcoreapp3.1\RickLocalization.Data.runtimeconfig.json
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\bin\Debug\netcoreapp3.1\RickLocalization.Data.runtimeconfig.dev.json
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\bin\Debug\netcoreapp3.1\RickLocalization.Data.pdb
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\obj\Debug\netcoreapp3.1\RickLocalization.Data.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\obj\Debug\netcoreapp3.1\RickLocalization.Data.dll
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\obj\Debug\netcoreapp3.1\RickLocalization.Data.pdb
+C:\Users\Gabriela Pinheiro\Documents\Gabriela\RickLocalization\RickLocalization.Data\obj\Debug\netcoreapp3.1\RickLocalization.Data.genruntimeconfig.cache
